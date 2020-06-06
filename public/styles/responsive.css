@@ -22,6 +22,14 @@
   #page_search_results .cards {
     grid-template-columns: 1fr;
   }
+
+  #page_create_point .field_group {
+    flex-direction: column;
+  }
+
+  #page_create_point .field_group .field + .field {
+    margin-left: 0;
+  }
 }
 
 @media (min-width: 1700px) {
