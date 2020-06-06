@@ -1,2 +1,5 @@
 # Excluded directories
 node_modules
+
+# Exclude files by extension
+*.db
